@@ -1,0 +1,47 @@
+.wrapper
+  width: 600px
+
+  top: calc(50vh - 300px)
+  left: calc(50vw - 300px)
+  background-color: gray
+  padding: 10px
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+
+
+body
+  background-color: black
+
+
+.hero__form
+  display: flex
+  min-width: 100%
+  justify-content: center
+
+.form__inputs
+  display: grid
+  grid-template-areas: "a b" "c c"
+  gap: 20px
+
+.start-input
+  grid-area: a
+
+.end-input
+  grid-area: b
+
+.form__btn
+  grid-area: c
+
+.img
+  max-width: 100%
+  max-height: 100%
+
+.item
+  display: flex
+  align-items: center
+  height: 30px
+  p
+    width: 30px
+  input
+    margin-left: 20px

@@ -1,0 +1,13 @@
+.relation__inputArea {
+  padding: 10px;
+  font-size: 30px;
+  min-width: 100%;
+  min-height: 200px;
+  max-height: 300px;
+  max-width: 100%;
+}
+
+.relation__btn {
+  margin-top: 20px;
+  height: 30px;
+}
